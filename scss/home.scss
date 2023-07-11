@@ -1,0 +1,770 @@
+* {
+  margin: 0px;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Livvic", sans-serif;
+  text-decoration: none;
+  list-style: none;
+}
+
+.header__bg {
+  background-color: #014e56;
+  height: 700px;
+}
+.header__contayner {
+  max-width: 1110px;
+  margin: 0 auto;
+}
+.header {
+  display: flex;
+  padding-top: 80px;
+  justify-content: space-between;
+}
+.header__logo {
+  display: flex;
+}
+.nav__list {
+  display: flex;
+  padding-left: 80px;
+  gap: 40px;
+}
+.nav {
+  display: flex;
+  justify-content: center;
+  align-self: center;
+}
+.btn {
+  display: flex;
+  justify-content: center;
+  align-self: center;
+}
+.header__link {
+  color: #fff;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 28px;
+}
+.header__btn {
+  border-radius: 24px;
+  border: 2px solid #fff;
+  background: #014e56;
+  color: #fff;
+  width: 153px;
+  height: 48px;
+}
+.menu {
+  display: none;
+}
+.hero {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 133px;
+}
+.hero__text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.text {
+  max-width: 445px;
+  color: #fff;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 28px;
+  padding-top: 75px;
+}
+.hero__title {
+  position: relative;
+}
+.title {
+  color: #fff;
+  font-size: 100px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 100px;
+  max-width: 531px;
+}
+.span__title {
+  color: #f67e7e;
+}
+.text:after {
+  content: url(../images/palasa.png);
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.title::before {
+  content: url(../images/consol-1.png);
+  position: absolute;
+  left: -213px;
+}
+.hero__text::after {
+  content: url(../images/corcol-3.png);
+  position: absolute;
+  bottom: 10px;
+  top: 339px;
+}
+.section__bg {
+  background: #012f34;
+  height: 684px;
+}
+.section__conteyner {
+  max-width: 1110px;
+  margin: 0 auto;
+}
+.section {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 198px;
+}
+.section__title {
+  position: relative;
+}
+.titles {
+  color: #fff;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 48px;
+  max-width: 445px;
+}
+.section__info {
+  display: flex;
+  gap: 20px;
+}
+.info {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.info__title {
+  color: #f67e7e;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 28px;
+}
+.info__text {
+  color: #fff;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 25px;
+  opacity: 0.800000011920929;
+  max-width: 445px;
+}
+.section__text {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  position: relative;
+}
+.icon {
+  max-width: 72px;
+  height: 72px;
+}
+.section__title::before {
+  content: url(../images/palasa-red.png);
+  position: absolute;
+  bottom: 400px;
+}
+.section__text::after {
+  content: url(../images/cokol-4.png);
+  position: absolute;
+  left: 640px;
+  top: 240px;
+}
+.card__bg {
+  background: #004047;
+  height: 745px;
+}
+.card__conteyner {
+  max-width: 1110px;
+  margin: 0 auto;
+  position: relative;
+}
+.bloc__title {
+  color: #fff;
+  text-align: center;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 48px;
+  max-width: 932px;
+  position: relative;
+}
+.bloc__color {
+  color: #79c8c7;
+}
+.bloc__name {
+  display: flex;
+  justify-content: center;
+  padding-top: 140px;
+}
+.card {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 92px;
+}
+.bloc {
+  display: flex;
+  flex-direction: column;
+}
+.bloc__img {
+  display: flex;
+  justify-content: center;
+  padding-top: 32px;
+}
+.bloc__img {
+  display: flex;
+  justify-content: center;
+  padding-top: 32px;
+}
+.card__text {
+  color: #fff;
+  text-align: center;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 25px;
+  max-width: 350px;
+  position: relative;
+}
+.card__name {
+  color: #79c8c7;
+  text-align: center;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 28px;
+  padding-top: 24px;
+}
+.card__info {
+  color: #fff;
+  text-align: center;
+  font-size: 13px;
+  font-style: italic;
+  font-weight: 500;
+  line-height: 18px;
+}
+.bloc__title::before {
+  content: url(../images/bloc-top.png);
+  position: absolute;
+  top: -140px;
+  left: -294px;
+}
+
+.bloc__title::after {
+  content: url(../images/bloc-bottom.png);
+  position: absolute;
+  top: 502px;
+  left: 1025px;
+}
+.card__text::before {
+  content: url(../images/“.png);
+  position: absolute;
+  top: -37px;
+  left: 42%;
+  right: 50%;
+}
+.reklama__bg {
+  background: #f67e7e;
+  height: 200px;
+}
+.reklama__conteyner {
+  max-width: 1110px;
+  margin: 0 auto;
+}
+.reklama {
+  display: flex;
+  justify-content: space-around;
+}
+.reklama__titles {
+  color: #012f34;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 38px;
+}
+.reklama__btns {
+  color: #012f34;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 28px;
+  background: #f67e7e;
+  border-radius: 24px;
+  border: 2px solid #012f34;
+  max-width: 153px;
+  height: 48px;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+.reklama {
+  padding-top: 76px;
+}
+.reklama__title {
+  position: relative;
+}
+.reklama__title::before {
+  content: url(../images/reklama-sorcal.png);
+  position: absolute;
+  left: -322px;
+  top: -20px;
+}
+.footer__bg {
+  background: #002529;
+  height: 196px;
+}
+.footer__conteyer {
+  max-width: 1110px;
+  margin: 0 auto;
+}
+.footer {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 48px;
+}
+.footer__nav {
+  display: flex;
+  gap: 40px;
+}
+.footer__icon {
+  display: flex;
+  justify-content: end;
+  align-items: end;
+  flex-direction: column;
+  gap: 50px;
+}
+.footer__text {
+  display: flex;
+  gap: 7px;
+}
+.nav__home {
+  color: #fff;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 28px;
+}
+.nav__about {
+  color: #fff;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 28px;
+}
+.item {
+  color: #fff;
+  opacity: 0.6000000238418579;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 25px;
+}
+.items {
+  color: #fff;
+  opacity: 0.6000000238418579;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 25px;
+}
+.footer__infos {
+  color: #fff;
+  text-align: right;
+  opacity: 0.6000000238418579;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 25px;
+}
+.footer__logo{
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+.footer__texts{
+  display: none;
+}
+
+.footer__lider{
+  display: none;
+}
+
+@media only screen and (max-width: 1100px) {
+  .menu {
+    display: none;
+  }
+  .header__contayner {
+    padding: 0 40px;
+  }
+  .text:after {
+    display: none;
+  }
+  .hero {
+    display: flex;
+    flex-direction: column;
+  }
+  .text {
+    max-width: 500px;
+  }
+  .hero__text {
+    display: flex;
+    text-align: center;
+  }
+  .hero__title {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+  }
+  .header__bg {
+    height: 900px;
+  }
+  .section__conteyner {
+    padding: 0 40px;
+    position: relative;
+  }
+  .section {
+    display: flex;
+    flex-direction: column;
+    padding-left: 70px;
+    padding-top: 120px;
+  }
+  .section__title {
+    padding-bottom: 70px;
+  }
+  .titles {
+    color: #fff;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 32px;
+  }
+  .info__text {
+    color: #fff;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 25px;
+    max-width: 478px;
+  }
+  .section__title::before {
+    bottom: 160px;
+  }
+  .section__text::after {
+    display: none;
+  }
+  .section__bg {
+    position: relative;
+  }
+  .section__bg::before {
+    content: url(../images/cokol-4.png);
+    position: absolute;
+    right: 0;
+  }
+  .bloc__title::after {
+    display: none;
+  }
+  .bloc__title::before {
+    display: none;
+  }
+  .card__conteyner {
+    padding: 0 40px;
+  }
+  .card__bg {
+    height: 1350px;
+  }
+  .bloc__title {
+    max-width: 470px;
+    color: #fff;
+    text-align: center;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 32px;
+  }
+  .card {
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+  }
+  .card__text {
+    color: #fff;
+    text-align: center;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 25px;
+    max-width: 573px;
+  }
+  .bloc {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .bloc__name {
+    position: relative;
+  }
+  .bloc__name::before {
+    content: url(../images/bloc-top.png);
+    position: absolute;
+    left: -40px;
+    top: -0px;
+  }
+  .bloc__name::after {
+    content: url(../images/bloc-bottom.png);
+    position: absolute;
+    right: -40px;
+    top: 1250px;
+  }
+  .reklama__titles {
+    color: #012f34;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 32px;
+  }
+  .reklama__title::before {
+    content: url(../images/reklama-corcol-planwet.png);
+    position: absolute;
+    left: -155px;
+    top: 2px;
+  }
+  .footer__bg{
+    height: 271px;
+  }
+  .footer__conteyer{
+    padding: 0 40px;
+    position: relative;
+  }
+  .footer__logo{
+    gap: 50px;
+  }
+  .icon__footer{
+    position: absolute;
+    left: 40px;
+    right: 270px;
+    bottom: 100px;
+    top: 200px;
+  }
+  .footer__texts{
+    display: flex;
+    text-align: end;
+  }
+  .footer__text{
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .nav {
+    display: none;
+  }
+  .btn {
+    display: none;
+  }
+  .menu {
+    display: flex;
+    max-width: 20px;
+    height: 17px;
+  }
+  .burger {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .header__contayner {
+    padding: 0 24px;
+  }
+  .hero {
+    padding-top: 70px;
+    padding-bottom: 50px;
+  }
+  .title {
+    color: #fff;
+    text-align: center;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 40px;
+    max-width: 230px;
+  }
+  .text {
+    color: #fff;
+    text-align: center;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 28px;
+    max-width: 327px;
+    padding-top: 50px;
+  }
+  .header__bg {
+    height: 709px;
+  }
+  .section__bg {
+    height: 1073px;
+  }
+  .section__conteyner {
+    padding: 0 24px;
+  }
+  .section {
+    padding-left: 0;
+  }
+  .titles {
+    max-width: 240px;
+  }
+  .section__title::before {
+    top: -40px;
+  }
+  .section__info {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+  }
+  .section__icon {
+    display: flex;
+    justify-content: center;
+  }
+  .info__text {
+    max-width: 327px;
+  }
+  .info {
+    display: flex;
+    justify-content: center;
+  }
+  .card__bg {
+    height: 1450px;
+  }
+  .reklama__bg {
+    height: 315px;
+  }
+  .bloc__name::after {
+    content: url(../images/bloc-bottom.png);
+    position: absolute;
+    right: -40px;
+    top: 1350px;
+  }
+  .reklama {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    padding: 83px;
+  }
+  .reklama__titles {
+    color: #012f34;
+    text-align: center;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 32px;
+    max-width: 327px;
+  }
+  .reklama__title::before {
+    content: url(../images/reklama-corcol-planwet.png);
+    position: absolute;
+    left: -132px;
+    top: 110px;
+  }
+  
+  
+
+
+
+
+.musir{
+  display: none;
+}
+.footer__lider{
+  display: block;
+}
+  .footer__conteyerss{
+    padding: 0 24px;
+  }
+  .footer__bgss{
+   background: #002529;
+   height: 400px;
+  }
+  .footerss {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 48px;
+  }
+  .footer__navss {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+  }
+  .footer__iconss {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    text-align: center;
+    padding-top: 24px;
+  }
+  .footer__text {
+    display: flex;
+    justify-content: center;
+    padding-top: 100px;
+    text-align: center;
+    gap: 7px;
+  }
+  .nav__home {
+    color: #fff;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 28px;
+  }
+  .nav__about {
+    color: #fff;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 28px;
+  }
+  .item {
+    color: #fff;
+    opacity: 0.6000000238418579;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 25px;
+  }
+  .items {
+    color: #fff;
+    opacity: 0.6000000238418579;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 25px;
+  }
+  .footer__infos {
+    color: #fff;
+    text-align: center;
+    opacity: 0.6000000238418579;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 25px;
+  }
+  .footer__logo{
+    display: flex;
+    
+    gap: 25px;
+  }
+  .footer__texts{
+    display: none;
+  }
+  
+}
